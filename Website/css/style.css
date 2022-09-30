@@ -189,7 +189,6 @@ html{
     padding-left: 20px;
     margin-top: 3%;
 }
-
 .about-main{
     display: flex;
     /* justify-content: center; */
@@ -252,4 +251,78 @@ html{
 }
 .form-btn{
     background-color: rgb(228, 224, 8);
+}
+
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white ;
+}
+
+.services{
+    text-align: center;
+    font-size: 41px;
+}
+
+.ser-section-main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 27%;
+    margin: auto;
+    height: 70%;
+}
+
+.ser-vh{
+    height: 100vh;
+}
+.ser-section{
+    padding: 60px 22px;
+}
+
+
+.ser-img{
+    height: 447px;
+    object-fit: cover; 
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.service-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-col img{
+    width: 100%;
+    display: block;
+}
+
+.layer{
+    background: transparent ;
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
 }
