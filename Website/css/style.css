@@ -326,3 +326,42 @@ html{
     left: 0;
     transition: 0.4s;
 }
+
+.layer:hover{
+    background: rgba(50,0,0,0.7);
+    text-decoration: none;
+}
+
+
+.layer a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.4s;
+
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+.box{
+    padding: 3rem 2rem;
+    text-align: center;
+    border: border;
+    background: rgb(226, 226, 226);
+    cursor: pointer;
+}
