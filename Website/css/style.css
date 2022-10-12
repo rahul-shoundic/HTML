@@ -469,3 +469,18 @@ html{
     margin-bottom: 100px;
    
 }
+
+.log-right{
+    padding: 7% 2%;
+    background-color: #0466664b;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.contact p a{
+    text-decoration: none;
+}
+
+.contact p a:hover{
+    text-decoration: none;
+}
