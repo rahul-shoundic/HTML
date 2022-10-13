@@ -4,7 +4,7 @@
 }
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 .logo{
@@ -252,7 +252,6 @@ html{
 .form-btn{
     background-color: rgb(228, 224, 8);
 }
-
 .text-footer{
     text-align: center;
     padding: 30px 0;
@@ -367,7 +366,6 @@ html{
 }
 
 
-
 .courses{
     width: 80%;
     margin: auto;
@@ -409,7 +407,6 @@ html{
     padding-top: 100px;
     text-align: center;
 }
-
 
 .counselor-col{
     flex-basis: 44%;
@@ -469,7 +466,6 @@ html{
     margin-bottom: 100px;
    
 }
-
 .log-right{
     padding: 7% 2%;
     background-color: #0466664b;
@@ -482,5 +478,15 @@ html{
 }
 
 .contact p a:hover{
+    text-decoration: none;
+}
+.signup-rt{
+    padding-top: 100px;
+}
+
+.courses a{
+    text-decoration: none;
+}
+.courses a:hover{
     text-decoration: none;
 }
